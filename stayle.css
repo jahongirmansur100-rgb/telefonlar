@@ -1,0 +1,114 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.continer{
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+body{
+    background-color: rgb(203, 220, 241);
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(85, 80, 80);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.JAHONGIR{
+    width: 173px;
+    height: 48px;
+    opacity: 1;
+    left: 937px;
+    background-color: #BA4270;
+    border-radius: 24px;
+    border: none;
+    color: white;
+
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.55px;
+    color: #36536B;
+
+}
+p{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #36536B;
+
+}
+h2{
+    font-family: DM Serif Display;
+    font-weight: 400;
+    font-size: 48px;
+
+    line-height: 56px;
+    letter-spacing: -0.37px;
+    color: #36536B;
+
+}
+
+.hero{
+    padding: 180px 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer .continer{
+    padding: 30px;
+    align-items: center;
+   
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+}
+.img{
+    display: flex;
+    gap: 19px;
+}
+@media(max-width:768px){
+    nav{
+        display: none;       
+    }
+    .btn{
+        display: block;
+        background-color:inherit ;
+        border: none;
+    }
+    .hero{
+        flex-direction: column;
+    }
+
+
+}
